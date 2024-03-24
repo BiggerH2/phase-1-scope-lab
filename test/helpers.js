@@ -1,4 +1,5 @@
-const chai = require('chai')
+const { expect } = require('chai');
+const mocha = require('mocha');
 const sinon = require('sinon')
 global.expect = chai.expect
 const fs = require('fs')
